@@ -18,5 +18,5 @@ export class User {
   rol: string;
 
   @DeleteDateColumn()
-  deleteAt: Date;
+  deletedAt: Date;
 }
